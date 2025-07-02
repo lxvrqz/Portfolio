@@ -131,6 +131,7 @@ p {
   border-radius: 12px;
   margin-right: 60px;
   max-width: 100%;
+  border-color: black;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
   transition: transform 0.3s ease;
 }
@@ -143,23 +144,32 @@ p {
   line-height: 7px;
 }
 
-.Discord span {
+.info-row {
+  display: flex;
+  gap: 400px;
+}
+.info-row p {
   color: purple;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 15px;
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 20px;
 }
 
-.Discord p {
-  color: purple;
-  font-size: 30px;
-  font-weight: 5500;
-  line-height: 15px;
+.underInfo {
+  margin-left: 10px;
+  display: flex;
+  gap: 350px;
+  color:purple;
+}
+
+.gunslol {
+  margin-left: -30px;
 }
 
 .ProjectPinned {
   color: purple;
   font-size: 25px;
+  font-weight: 550;
   text-decoration: underline;
 }
 
