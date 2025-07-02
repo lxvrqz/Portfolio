@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  background-color: #0e0e0e;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+section {
+  max-width: 1000px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #00ffc8;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #cccccc;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #c70c98;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #ffffff;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.greeting-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.greeting-text h1 {
+  font-size: 2.5rem;
+  color: #00ffcc;
+  margin-bottom: 0.5rem;
+}
+
+.greeting-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.profile-pic img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.profile-pic img:hover {
+  transform: rotate(2deg);
+}
+
+.skills p {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+}
+
+.GithubStats {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.GithubStats img {
+  border-radius: 12px;
+  max-width: 100%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.GithubStats img:hover {
+  transform: scale(1.03) rotate(2deg);
+}
+
+.Contact {
+  line-height: 7px;
+}
+
+.Discord span {
+  color: purple;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+.Discord p {
+  color: purple;
+  font-size: 30px;
+  font-weight: 5500;
+  line-height: 15px;
+}
+
+.ProjectPinned {
+  color: purple;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .greeting {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-pic img {
+    width: 180px;
+    height: 180px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
