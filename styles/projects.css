@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgb(36, 36, 36);
+  color: #f0f0f0;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  max-width: 1000px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding-left: 30px;
+  gap: 700px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #c70c98;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #ffffff;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.project-header a {
+  color: #c70c98;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.project-header a:hover {
+  text-decoration: underline;
+}
+.last-updated {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.projects h1 {
+  font-size: 2.5rem;
+  color: purple;
+  margin-bottom: 1rem;
+}
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+.projects li a {
+  color: #c70c98;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.projects li a:hover {
+  text-decoration: underline;
+}
+.projects small {
+  color: #aaa;
+}
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.project-card {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 220px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+.project-card a {
+  color: #c70c98;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+.project-card small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.project-card p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
